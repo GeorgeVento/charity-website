@@ -1,0 +1,37 @@
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Sub Titles */
+.sub-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  background-color: #28a745;
+  margin: 0 auto 40px auto;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Gallery images */
+.gallery img {
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #555;
+}

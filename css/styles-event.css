@@ -1,0 +1,37 @@
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  background-color: #28a745;
+  margin: 0 auto 40px auto;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Event Cards */
+.event-card .card-header {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Card Colors */
+.bg-green { background-color: #28a745; }
+.bg-orange { background-color: #fd7e14; }
+.bg-teal { background-color: #20c997; }
+.bg-gray { background-color: #6c757d; }
+
+.event-card p {
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.event-card .btn-primary {
+  font-weight: 600;
+}

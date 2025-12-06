@@ -1,0 +1,113 @@
+/* ========== GLOBAL STYLING ========== */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+/* ========== NAVBAR ========== */
+
+.navbar {
+  padding: 15px 0;
+}
+
+.nav-link {
+  color: #444 !important;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0c7c59 !important;
+}
+
+/* ========== CAROUSEL ========== */
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 600px;
+}
+
+/* ========== INTRO SECTION ========== */
+
+.heading-icon i {
+  color: #0c7c59;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* ========== CARDS ========== */
+
+.section-cards .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.section-cards .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.section-cards .card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* ========== TESTIMONIALS ========== */
+
+.testimonial {
+  background: #f0f4f3;
+}
+
+.blockquote {
+  border-left: 5px solid #0c7c59;
+  padding-left: 15px;
+}
+
+/* ========== FOOTER ========== */
+
+#footer {
+  background-color: #0c7c59;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.social-share i {
+  transition: 0.3s ease;
+}
+
+.social-share i:hover {
+  transform: scale(1.15);
+}
