@@ -25,6 +25,10 @@ donate.html — Donation page with forms and instructions.
 
 contact-us.html — Contact form and organization info.
 
+admin-login.html — A front-end login page for administrators.
+
+admin.html — The Admin Dashboard, featuring a fixed top navigation, sidebar, summary cards, and a data table.
+
 css/styles.css — Custom styling file uploaded separately by user.
 
 img/ — Folder containing all images (logo, animals, carousel photos, etc.).
@@ -83,6 +87,10 @@ contact-us.html
 /css/styles.css
 
 /img/*
+
+admin-login.html
+
+admin.html
 
 Open index.html with any modern browser (Chrome, Edge, Firefox, Safari).
 
